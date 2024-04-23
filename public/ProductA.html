@@ -78,7 +78,7 @@
                         d="M11.765 2.70229L11 3.52422L10.235 2.70229C8.12233 0.432572 4.69709 0.43257 2.58447 2.70229C0.471845 4.972 0.471844 8.65194 2.58447 10.9217L9.4699 18.3191C10.315 19.227 11.685 19.227 12.5301 18.3191L19.4155 10.9217C21.5282 8.65194 21.5282 4.972 19.4155 2.70229C17.3029 0.432571 13.8777 0.432571 11.765 2.70229Z"
                         stroke="#101316" stroke-width="1.5" stroke-linejoin="round" />
                 </svg>
-                <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="shop-icon" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M11 25.5C11 26.3284 10.3284 27 9.5 27C8.67157 27 8 26.3284 8 25.5C8 24.6716 8.67157 24 9.5 24C10.3284 24 11 24.6716 11 25.5Z"
                         stroke="#28303F" stroke-width="1.5" />
@@ -175,16 +175,16 @@
                         </svg>
 <span class="text-bg-gray/75 ">5.0 (121 Reviews)</span>                        
                 </div>
-                <span class="text-lg">$1999.00</span>
+                <span class="text-lg prod-price">$1999.00</span>
                 <p class="my-7">
                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.
                 </p>
                 <h1 class="text-xl font-bold">Color</h1>
                 <div class="flex items-center gap-2 mt-5 ">
-                    <div class="w-8 h-8 bg-[#BEBEC6] rounded-md"></div>
-                    <div class="w-8 h-8 bg-[#5D30BE] rounded-md"></div>
-                    <div class="w-8 h-8 bg-black rounded-md"></div>
-                    <div class="w-8 h-8 bg-blue rounded-md"></div>
+                    <div class="w-8 h-8 bg-[#BEBEC6] rounded-md prod-color-1"></div>
+                    <div class="w-8 h-8 bg-[#5D30BE] rounded-md prod-color-2"></div>
+                    <div class="w-8 h-8 bg-black rounded-md prod-color-3"></div>
+                    <div class="w-8 h-8 bg-blue rounded-md prod-color-4"></div>
                 </div>
                 <div class="flex items-center gap-5 my-8">
                     <svg width="120" height="56" viewBox="0 0 120 56" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -228,9 +228,9 @@
         </main>
         <section class="mt-10">
             <ul class="flex items-center justify-between lg:justify-normal lg:gap-7 font-medium text-black  lg:text-xl text-sm">
-                <li >Descriptions</li>
-                <li class="text-blue font-semibold"> Additional Information</li>
-                <li>Reviews</li>
+                <li id="description-head"><a>Descriptions</a></li>
+                <li class="text-blue font-semibold" id="add-info-head"> Additional Information</li>
+                <li id="reviews-head">Reviews</li>
             </ul>
             <div class="w-full bg-bg-gray/30 h-[2px] mt-3 pl-[105px] lg:pl-[155px]">
                 <div class="bg-blue  w-[160px] lg:w-[237px] h-1 "> </div>
@@ -297,7 +297,7 @@
             </div>
             <div class="w-full flex flex-col items-start gap-2">
                 <div class="bg-bg-gray/10 rounded-lg">
-                    <img class="lg:w-64"" src="../assets/image 18.png" alt="">
+                    <img class="lg:w-64" src="../assets/image 18.png" alt="">
                 </div>
                 <span class=" font-semibold text-sm lg:text-xl">Samsung Galaxy S22 </span>
                 <div class="flex items-center gap-3">
