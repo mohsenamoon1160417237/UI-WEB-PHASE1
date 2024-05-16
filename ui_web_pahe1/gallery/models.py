@@ -8,7 +8,7 @@ class ProductGallery(GeneralModel):
     product = models.ForeignKey(
         to='shop.ProductItem',
         on_delete=models.CASCADE,
-        related_name='product',
+        related_name='product_gallery',
         verbose_name=_("product")
     )
     file = models.FileField(

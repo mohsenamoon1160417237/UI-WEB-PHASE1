@@ -80,6 +80,7 @@ class ShoppingCard(GeneralModel):
 class Coupon(GeneralModel):
     code = models.CharField(
         max_length=500,
+        unique=True,
         verbose_name=_("code")
     )
     percentage_amount = models.PositiveIntegerField(
@@ -128,6 +129,10 @@ class ProductCategory(GeneralModel):
         null=True,
         blank=True,
         verbose_name=_("description")
+    )
+    enable_off = models.BooleanField(
+        default=False,
+        verbose_name=_("enable_off")
     )
 
     def save(self, *args, **kwargs):
