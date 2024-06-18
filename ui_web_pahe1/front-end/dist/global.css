@@ -1,0 +1,11 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+#no::-webkit-scrollbar{
+    display: none;
+}
+
+.active{
+    display: flex;
+}
